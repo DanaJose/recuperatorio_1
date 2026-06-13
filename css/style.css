@@ -12,7 +12,7 @@ body {
     font-size: 1rem;
     line-height: 1.6;
     color: #1d0347f1;
-    background-image:  linear-gradient(rgba(245, 212, 212, 0.5), rgba(241, 208, 208, 0.5)), url('../img/fondo.jpg');
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url('../img/fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -45,7 +45,7 @@ h2 {
     width: 95%;
     margin: 2rem auto;
     padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(239, 247, 213, 0.9);
 }
 
 /* ===== Header ===== */
@@ -164,7 +164,7 @@ footer {
     margin: 2rem auto;
     padding: 1rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(239, 247, 213, 0.9);
     font-size: 0.9rem;
     color: #444444;
 }

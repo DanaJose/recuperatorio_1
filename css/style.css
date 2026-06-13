@@ -1,6 +1,8 @@
 /* ===== estilos generales ===== */
  
  *{
+    margin: 0;
+    padding: 0;
      box-sizing: border-box;
 }
 
@@ -33,7 +35,7 @@ h1 {
 }
 
 h2 {
-    border-left: 4px solid;
+    border-left: 4px solid rgba(0, 212, 255, 0.15);
     background-color: rgba(0, 212, 255, 0.15);
     margin-left: 1.5rem;
 }
@@ -83,7 +85,7 @@ nav ul {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     background-color: rgba(0, 212, 255, 0.15);
-    border-left: 4px solid;
+    border-left: 4px solid rgba(10, 43, 49, 0.15);;
 }
    
 
@@ -98,8 +100,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #b4f0b7;
-    color: #93f57f;
+    background-color: #36f840;
+    color: #f9fcf9;
 }
 
 nav a:visited {
@@ -160,7 +162,7 @@ footer {
     max-width: 1200px;
     width: 95%;
     margin: 2rem auto;
-    padding: 6rem;
+    padding: 1rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     font-size: 0.9rem;
